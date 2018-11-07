@@ -1,21 +1,9 @@
 {
-  "name": "phase2/pattern-lab-starter",
-  "description": "Phase2 Pattern Lab for Drupal based on Pattern Lab's Drupal Edition",
-  "keywords": [
-    "pattern lab",
-    "drupal"
-  ],
-  "homepage": "https://github.com/phase2/pattern-lab-starter",
+  "name": "phase2/pattern-lab",
+  "description": "Composer package to bring Pattern Lab into Particle",
+  "type": "project",
+  "homepage": "https://github.com/phase2/pattern-lab",
   "license": "GPL-2.0+",
-  "authors": [
-    {
-      "name": "Evan Lovely",
-      "role": "Lead Developer"
-    }
-  ],
-  "support": {
-    "issues": "https://github.com/phase2/pattern-lab-starter/issues"
-  },
   "autoload": {
     "psr-0": {
       "PatternLab": "core/src/"
@@ -40,7 +28,6 @@
     }
   ],
   "require": {
-    "php": ">=5.6.5",
     "pattern-lab/core": "^2.9.0",
     "pattern-lab/patternengine-twig": "^2.2.3",
     "pattern-lab/styleguidekit-assets-default": "^3.5.2",
